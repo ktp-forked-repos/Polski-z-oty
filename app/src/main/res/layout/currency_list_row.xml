@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="58dp">
+
+
+
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+        android:layout_weight="10">
+    <TextView
+        android:id="@+id/code_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:textSize="18sp"
+        android:text="GBR"
+        android:textColor="@color/cCode"/>
+
+        <TextView
+            android:id="@+id/currency_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Funt"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_item_nav"
+        android:id="@+id/navImage"
+        android:contentDescription="@string/szczeg"/>
+
+</LinearLayout>

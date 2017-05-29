@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WalutyPLN</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="szczeg">Szczegóły</string>
+    <string name="brak_danych">Brak danych</string>
+    <string name="nazwa_waluty">Nazwa waluty:</string>
+    <string name="kod_waluty">Kod waluty:</string>
+    <string name="cena_kupna">Cena kupna:</string>
+    <string name="cena_sprzeda_y">Cena sprzedaży:</string>
+    <string name="zloty">PLN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gKurs">Kurs:</string>
+</resources>
